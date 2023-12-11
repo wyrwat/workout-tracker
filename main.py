@@ -10,7 +10,7 @@ AGE = 38
 ENV_NIX_APP_ID = os.environ["ENV_NIX_APP_ID"]
 ENV_NIX_API_KEY = os.environ["ENV_NIX_API_KEY"]
 
-SHEETY_BEARER_TOKEN = os.environ.["SHEETY_BEARER_TOKEN"]
+SHEETY_BEARER_TOKEN = os.environ["SHEETY_BEARER_TOKEN"]
 
 EXERCISE_URL = "https://trackapi.nutritionix.com/v2/natural/exercise"
 ADD_ROW = "https://api.sheety.co/4762a863c90382f33ad96aab1a6b81ed/myWorkouts/workouts"
