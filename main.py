@@ -7,8 +7,9 @@ GENDER = "male"
 WEIGHT_KG = 85
 HEIGHT_CM = 180
 AGE = 38
-APP_ID = os.environ.get("APP_ID")
-API_KEY = os.environ.get("API_KEY")
+ENV_NIX_APP_ID = os.environ["ENV_NIX_APP_ID"]
+ENV_NIX_API_KEY = os.environ["ENV_NIX_API_KEY"]
+
 SHEETY_BEARER_TOKEN = os.environ.get("SHEETY_BEARER_TOKEN")
 
 EXERCISE_URL = "https://trackapi.nutritionix.com/v2/natural/exercise"
